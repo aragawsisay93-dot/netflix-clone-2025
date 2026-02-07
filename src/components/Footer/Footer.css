@@ -1,0 +1,98 @@
+
+
+.footer {
+  background-color: #141414;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-email-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.footer-email-input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.footer-get-started-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.arrow-icon {
+  margin-left: 8px;
+}
+
+.footer__content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-bottom-row {
+  display: flex;
+  justify-content: flex-end; /* Align social icons to the right */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-social-icons a {
+  margin-left: 15px;
+  font-size: 28px;
+  transition: transform 0.2s;
+}
+
+.footer-social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.footer-social-icons .social-icon {
+  vertical-align: middle;
+}
+
+/* Specific colors for each icon */
+.footer-social-icons a[href*="facebook"] .social-icon {
+  color: #1877f2; /* Facebook blue */
+}
+
+.footer-social-icons a[href*="youtube"] .social-icon {
+  color: #ff0000; /* YouTube red */
+}
+
+.footer__bottom-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #999;
+}
