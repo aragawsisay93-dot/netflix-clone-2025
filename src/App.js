@@ -15,13 +15,6 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        {/* ✅ GitHub Pages repo path safety */}
-        <Route
-          path="/Netflix-clone-2025"
-          element={<Navigate to="/" replace />}
-        />
-
-        {/* ✅ Main routes */}
         <Route
           path="/"
           element={user ? <Home /> : <Navigate to="/signin" replace />}
@@ -37,7 +30,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
 
-        {/* ✅ Catch-all */}
+        {/* Catch-all */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
